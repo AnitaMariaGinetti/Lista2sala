@@ -1,0 +1,15 @@
+num1 = int(input("Entre com o primeiro número inteiro: "))
+num2 = int(input("Entre com o segundo número inteiro: "))
+num3 = int(input("Entre com o terceiro número inteiro: "))
+
+if (num1 % 2 == 0) and (num1 % 3 == 0):
+    print(f"O número {num1} é divisível por 2 e por 3.")
+
+if (num2 % 2 == 0) and (num2 % 3 == 0):
+    print(f"O número {num2} é divisível por 2 e por 3.")
+
+if (num3 % 2 == 0) and (num3 % 3 == 0):
+    print(f"O número {num3} é divisível por 2 e por 3.")
+    
+else:
+	print("Nenhum dos números é divisível por 2 e por três.")
