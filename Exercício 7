@@ -1,0 +1,8 @@
+num = int(input("Entre com um número: "))
+
+if num < 0:
+	positivo = num * -1
+	print("Seu número, positivo, é: ", positivo )
+	
+else:
+	print("O número digitado já encontra-se positivo: ", num)
