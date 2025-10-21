@@ -1,0 +1,39 @@
+a = float(input("Entre com o valor de a:"))
+
+b = float(input("Entre com o valor de b:"))
+
+c = float(input("Entre com o valor dd c:"))
+
+maior = 0
+menor = 0
+meio = 0
+
+if a >= b and a >= c:
+    maior = a
+
+elif b >= a and b >= c:
+    maior = b
+
+else:
+    maior = c
+
+if a <= b and a <= c:
+    menor = a
+
+elif b <= a and b <= c:
+    menor = b
+
+else:
+    menor = c
+
+if (a != maior) and (a != menor):
+    meio = a
+
+elif (b != maior) and (b != menor):
+    meio = b
+
+else:
+    meio = c
+    
+print("A ordem crescente é: ", menor, meio, maior)
+
