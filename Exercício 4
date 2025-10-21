@@ -1,0 +1,18 @@
+A = float(input("Digite o valor do lado A: "))
+B = float(input("Digite o valor do lado B: "))
+C = float(input("Digite o valor do lado C: "))
+
+if (A < B + C) and (B < A + C) and (C < A + B):
+    
+    if (A == B) and (B == C):
+        print("Os valores formam um TRIÂNGULO EQUILÁTERO.")
+        
+    elif (A == B) or (A == C) or (B == C):
+        print("Os valores formam um TRIÂNGULO ISÓSCELES.")
+        
+    else:
+        print("\nOs valores formam um TRIÂNGULO ESCALENO.")
+        
+else:
+    print("Os valores fornecidos NÃO FORMAM UM TRIÂNGULO.")
+ 
