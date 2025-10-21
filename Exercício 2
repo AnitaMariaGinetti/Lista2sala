@@ -1,0 +1,17 @@
+n1 = float(input("Entre com a primeira nota: "))
+
+n2 = float(input("Entre com a segunda nota: "))
+
+media = (n1 + n2)/2
+
+if media > 6:
+    print("Você foi aprovado com média: ", media)
+else:
+    n3 = float(input("Entre com a sua nota de exame: "))
+
+novamedia = (n3+media)/2
+
+if novamedia > 6:
+    print("Você foi aprovado com média: ", novamedia)
+else:
+    	print("Voxê foi reprovado com média: ", novamedia)
